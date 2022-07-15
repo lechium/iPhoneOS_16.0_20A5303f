@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.itunesstored.private</key>
+	<true/>
+	<key>com.apple.multitasking.unlimitedassertions</key>
+	<true/>
+	<key>com.apple.private.MobileGestalt.AllowedProtectedKeys</key>
+	<array>
+		<string>UniqueDeviceID</string>
+	</array>
+	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.private.corespotlight.internal</key>
+	<true/>
+	<key>com.apple.private.privacy.accounting.write</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceMediaLibrary</string>
+	</array>
+	<key>com.apple.private.tcc.manager.access.delete</key>
+	<array>
+		<string>kTCCServiceMediaLibrary</string>
+	</array>
+	<key>com.apple.private.tcc.manager.check-by-audit-token</key>
+	<array>
+		<string>kTCCServiceMediaLibrary</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.medialibraryd.xpc</string>
+		<string>com.apple.privacyaccountingd</string>
+		<string>com.apple.storebookkeeperd.xpc</string>
+		<string>com.apple.symptom_diagnostics</string>
+		<string>com.apple.siriknowledged.koa.donate</string>
+	</array>
+	<key>com.apple.siri.koa.donate.internal</key>
+	<true/>
+	<key>com.apple.springboard.CFUserNotification</key>
+	<true/>
+	<key>fairplay-client</key>
+	<integer>999035649</integer>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>medialibraryd</string>
+	</array>
+</dict>
+</plist>

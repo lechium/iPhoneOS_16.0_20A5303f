@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.mobilemail.mailservices</key>
+	<true/>
+	<key>com.apple.private.accounts.allaccounts</key>
+	<true/>
+	<key>com.apple.private.tcc.allow.overridable</key>
+	<array>
+		<string>kTCCServiceCalendar</string>
+		<string>kTCCServiceReminders</string>
+	</array>
+	<key>com.apple.private.ubiquity-additional-kvstore-identifiers</key>
+	<array>
+		<string>com.apple.mail.recents</string>
+		<string>com.apple.facetime.recents</string>
+		<string>com.apple.calendar.recents</string>
+		<string>com.apple.eventkit.locations</string>
+		<string>com.apple.passbook.locations</string>
+	</array>
+	<key>com.apple.wifi.manager-access</key>
+	<true/>
+</dict>
+</plist>

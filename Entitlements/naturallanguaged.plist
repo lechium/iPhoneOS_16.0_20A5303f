@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.naturallanguaged</string>
+	<key>com.apple.MobileAsset.LinguisticData</key>
+	<true/>
+	<key>com.apple.ane.iokit-user-access</key>
+	<true/>
+	<key>com.apple.aned.private.allow</key>
+	<true/>
+	<key>com.apple.private.sandbox.profile:embedded</key>
+	<string>temporary-sandbox</string>
+	<key>com.apple.security.exception.files.home-relative-path.read-write</key>
+	<array>
+		<string>/Library/Keyboard/</string>
+		<string>/Library/LanguageModeling/</string>
+		<string>/Library/Spelling/</string>
+		<string>/Library/Caches/</string>
+	</array>
+	<key>com.apple.security.exception.iokit-user-client-class</key>
+	<array>
+		<string>IOSurfaceRootUserClient</string>
+		<string>AGXDeviceUserClient</string>
+		<string>H11ANEInDirectPathClient</string>
+		<string>IOSurfaceAcceleratorClient</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.appleneuralengine</string>
+	</array>
+	<key>com.apple.security.exception.shared-preferences.read-write</key>
+	<string>com.apple.naturallanguaged</string>
+	<key>com.apple.security.iokit-user-client-class</key>
+	<array>
+		<string>IOSurfaceRootUserClient</string>
+		<string>AGXDeviceUserClient</string>
+		<string>H11ANEInDirectPathClient</string>
+		<string>IOSurfaceAcceleratorClient</string>
+	</array>
+	<key>com.apple.security.ts.asset-access</key>
+	<true/>
+	<key>com.apple.security.ts.tmpdir</key>
+	<string>com.apple.naturallanguaged</string>
+	<key>platform-application</key>
+	<true/>
+</dict>
+</plist>

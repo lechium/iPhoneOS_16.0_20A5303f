@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.SensorKitALSHelper</string>
+	<key>com.apple.CoreRoutine.LocationOfInterest</key>
+	<true/>
+	<key>com.apple.coreduetd.allow</key>
+	<true/>
+	<key>com.apple.coreduetd.context</key>
+	<true/>
+	<key>com.apple.locationd.activity</key>
+	<true/>
+	<key>com.apple.private.biome.read-only</key>
+	<array>
+		<string>TextInputSession</string>
+	</array>
+	<key>com.apple.private.hid.client.event-monitor</key>
+	<true/>
+	<key>com.apple.private.tcc.manager.access.read</key>
+	<array>
+		<string>kTCCServiceAll</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.biome.PublicStreamAccessService</string>
+	</array>
+	<key>com.apple.sensorkit.writer.allow</key>
+	<array>
+		<string>com.apple.SensorKit.deviceUsageReport</string>
+		<string>com.apple.SensorKit.phoneUsageReport</string>
+		<string>com.apple.SensorKit.messagesUsageReport</string>
+		<string>com.apple.SensorKit.als</string>
+		<string>com.apple.private.SensorKit.pedometer.stridecalibration</string>
+		<string>com.apple.SensorKit.visits</string>
+	</array>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>SensorKitALSHelper</string>
+	</array>
+</dict>
+</plist>

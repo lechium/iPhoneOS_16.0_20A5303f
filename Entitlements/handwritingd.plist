@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.keyboardservices.textreplacement.allow</key>
+	<true/>
+	<key>com.apple.proactive.PersonalizationPortrait.Connections</key>
+	<true/>
+	<key>com.apple.proactive.PersonalizationPortrait.Contact</key>
+	<true/>
+	<key>com.apple.proactive.PersonalizationPortrait.Event</key>
+	<true/>
+	<key>com.apple.proactive.PersonalizationPortrait.NamedEntity.readOnly</key>
+	<true/>
+	<key>com.apple.proactive.PersonalizationPortrait.QuickType</key>
+	<true/>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.UIKit</string>
+		<string>com.apple.PencilKit</string>
+	</array>
+	<key>com.apple.springboard.opensensitiveurl</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>handwritingd</string>
+	</array>
+</dict>
+</plist>

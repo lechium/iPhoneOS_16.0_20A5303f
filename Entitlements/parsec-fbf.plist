@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>abs-client</key>
+	<string>1821501079</string>
+	<key>application-identifier</key>
+	<string>com.apple.parsec-fbf</string>
+	<key>com.apple.developer.networking.multipath_extended</key>
+	<true/>
+	<key>com.apple.intents.extension.discovery</key>
+	<true/>
+	<key>com.apple.private.feedbacklogger</key>
+	<true/>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.apple.PegasusConfiguration</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.assistant.backedup</string>
+		<string>com.apple.voicetrigger</string>
+		<string>com.apple.assistant.support</string>
+	</array>
+	<key>com.apple.springboard.allHomeScreenApplicationBundleIdentifiers</key>
+	<true/>
+	<key>fairplay-client</key>
+	<string>511712240</string>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.siri.osprey</string>
+	</array>
+</dict>
+</plist>

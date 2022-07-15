@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.private.coreservices.cangetcurrentactivityinfo</key>
+	<true/>
+	<key>com.apple.private.coreservices.canopenactivity</key>
+	<true/>
+	<key>com.apple.private.corespotlight.search.internal</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.frontboard.systemappservices</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.mobilenotes</string>
+		<string>com.apple.Notes</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.Synapse</string>
+	</array>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.security.ts.power-assertions</key>
+	<true/>
+	<key>com.apple.springboard.remote-alert</key>
+	<true/>
+	<key>com.apple.springboard.systemNotesPresentation</key>
+	<true/>
+	<key>com.apple.synapse.allowBacklinkIndicatorRequests</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>temporary-sandbox</string>
+	</array>
+</dict>
+</plist>

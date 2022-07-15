@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.frontboard.debugapplications</key>
+	<true/>
+	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.mkb.usersession.info</key>
+	<true/>
+	<key>com.apple.osanalytics.canusediagnosticmonitor</key>
+	<true/>
+	<key>com.apple.private.InstallCoordination.allowed</key>
+	<true/>
+	<key>com.apple.private.MobileContainerManager.otherIdLookup</key>
+	<true/>
+	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.private.mobileinstall.allowed-linked-parents</key>
+	<array>
+		<string>com.apple.Playgrounds</string>
+	</array>
+	<key>com.apple.private.mobileinstall.allowedSPI</key>
+	<array>
+		<string>UninstallForLaunchServices</string>
+	</array>
+	<key>com.apple.runningboard.assertions.xcodepreviews</key>
+	<true/>
+	<key>com.apple.runningboard.process-state</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/private/var/containers/Shared/SystemGroup/systemgroup.com.apple.installcoordinationd/Library/InstallCoordination/PromiseStaging/</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.installcoordinationd</string>
+		<string>com.apple.frontboard.systemappservices</string>
+		<string>com.apple.dt.xcode-previews.systemservices</string>
+		<string>com.apple.dt.xcode-previews.agent-pipe-services</string>
+		<string>com.apple.iconservices</string>
+		<string>com.apple.mobile.keybagd.xpc</string>
+		<string>com.apple.mobile.keybagd.UserManager.xpc</string>
+		<string>com.apple.mobile.usermanagerd.xpc</string>
+		<string>com.apple.osanalytics.diagnosticmonitor</string>
+	</array>
+	<key>com.apple.security.iokit-user-client-class</key>
+	<array>
+		<string>AGXDeviceUserClient</string>
+		<string>IOSurfaceRootUserClient</string>
+	</array>
+	<key>com.apple.security.system-groups</key>
+	<array>
+		<string>systemgroup.com.apple.dt.previews</string>
+	</array>
+	<key>com.apple.security.ts.tmpdir</key>
+	<string>com.apple.dt.previewsd</string>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>temporary-sandbox</string>
+	</array>
+</dict>
+</plist>

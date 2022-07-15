@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.PointerUI.pointeruid</string>
+	<key>com.apple.QuartzCore.occlusion-override</key>
+	<true/>
+	<key>com.apple.QuartzCore.secure-mode</key>
+	<true/>
+	<key>com.apple.backboardd.global-pointer-event-routing</key>
+	<true/>
+	<key>com.apple.backboardd.layerTransformLookup</key>
+	<true/>
+	<key>com.apple.backboardd.pointerHitTesting</key>
+	<true/>
+	<key>com.apple.backboardd.pointerPreferences</key>
+	<true/>
+	<key>com.apple.backboardd.pointerRepositioning</key>
+	<true/>
+	<key>com.apple.backboardd.pointerSuppressionAssertions</key>
+	<true/>
+	<key>com.apple.backboardd.touchStreams</key>
+	<true/>
+	<key>com.apple.springboard.requestScene-daemon</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>pointerui</string>
+	</array>
+</dict>
+</plist>

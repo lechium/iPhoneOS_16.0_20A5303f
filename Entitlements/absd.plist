@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.absd</string>
+	<key>fairplay-client</key>
+	<string>1835739258</string>
+	<key>com.apple.security.iokit-user-client-class</key>
+	<array>
+		<string>com_apple_driver_FairPlayIOKitUserClient</string>
+	</array>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>temporary-sandbox</string>
+	</array>
+	<key>platform-application</key>
+	<true/>
+	<key>com.apple.private.MobileGestalt.AllowedProtectedKeys</key>
+	<array>
+		<string>UniqueDeviceID</string>
+		<string>SerialNumber</string>
+	</array>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/usr/sbin</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.fairplayd.versioned</string>
+	</array>
+	<key>com.apple.security.exception.iokit-user-client-class</key>
+	<array>
+		<string>com_apple_driver_FairPlayIOKitUserClient</string>
+	</array>
+	<key>com.apple.private.FairPlayIOKitUserClient.access</key>
+	<true/>
+</dict>
+</plist>

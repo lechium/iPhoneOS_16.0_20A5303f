@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.coreidv.idcredd</string>
+	<key>com.apple.keystore.sik.access</key>
+	<true/>
+	<key>com.apple.mobileactivationd.device-identifiers</key>
+	<true/>
+	<key>com.apple.mobileactivationd.spi</key>
+	<true/>
+	<key>com.apple.private.appleidv.allow</key>
+	<true/>
+	<key>com.apple.private.assets.accessible-asset-types</key>
+	<array>
+		<string>com.apple.MobileAsset.CoreIDVAssets</string>
+	</array>
+	<key>com.apple.private.security.storage.idcredd</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceFaceID</string>
+	</array>
+	<key>com.apple.security.attestation.access</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/usr/libexec/</string>
+		<string>/private/var/MobileAsset/AssetsV2/com_apple_MobileAsset_CoreIDVAssets/</string>
+		<string>/var/MobileAsset/AssetsV2/com_apple_MobileAsset_CoreIDVAssets/</string>
+	</array>
+	<key>com.apple.security.exception.files.home-relative-path.read-write</key>
+	<array>
+		<string>/Library/idcredd/</string>
+	</array>
+	<key>com.apple.security.exception.iokit-user-client-class</key>
+	<array>
+		<string>AppleIDVUserClient</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.mobileactivationd</string>
+		<string>com.apple.seserviced</string>
+		<string>com.apple.securityd</string>
+		<string>com.apple.trustd</string>
+		<string>com.apple.mobileassetd.v2</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.coreidv.idcredd</string>
+	</array>
+	<key>com.apple.seserviced.key</key>
+	<true/>
+	<key>com.apple.seserviced.key.legacykey</key>
+	<true/>
+	<key>com.apple.sts.xpchelperclient.transceive.proxy.listener</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>temporary-sandbox</string>
+	</array>
+</dict>
+</plist>

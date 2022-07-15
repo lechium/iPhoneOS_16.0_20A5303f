@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.DragUI.druid</string>
+	<key>com.apple.QuartzCore.secure-mode</key>
+	<true/>
+	<key>com.apple.backboardd.cancelTouches</key>
+	<true/>
+	<key>com.apple.backboardd.detachTouches</key>
+	<true/>
+	<key>com.apple.backboardd.global-pointer-event-routing</key>
+	<true/>
+	<key>com.apple.backboardd.layerTransformLookup</key>
+	<true/>
+	<key>com.apple.backboardd.touchDeliveryObservation</key>
+	<true/>
+	<key>com.apple.backboardd.touchStreams</key>
+	<true/>
+	<key>com.apple.bannerkit.post</key>
+	<true/>
+	<key>com.apple.druid</key>
+	<true/>
+	<key>com.apple.fileprovider.acl-write</key>
+	<true/>
+	<key>com.apple.fileprovider.enumerate</key>
+	<true/>
+	<key>com.apple.fileprovider.fetch-url</key>
+	<true/>
+	<key>com.apple.managedconfiguration.profiled.get</key>
+	<array>
+		<string>MDMInfo</string>
+	</array>
+	<key>com.apple.private.hid.client.event-dispatch</key>
+	<true/>
+	<key>com.apple.runningboard.DragUI</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/private/var/mobile/Library/LiveFiles/com.apple.filesystems.userfsd/</string>
+	</array>
+	<key>com.apple.security.exception.iokit-user-client-class</key>
+	<array>
+		<string>AppleKeyStoreUserClient</string>
+	</array>
+	<key>com.apple.springboard.requestScene-daemon</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>druid</string>
+	</array>
+</dict>
+</plist>

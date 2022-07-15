@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.private.followup</key>
+	<true/>
+	<key>com.apple.private.security.storage.CoreFollowUp</key>
+	<true/>
+	<key>com.apple.private.usernotifications.bundle-identifiers</key>
+	<array>
+		<string>com.apple.Preferences</string>
+		<string>com.apple.followupd</string>
+		<string>com.apple.iCloud.FollowUp</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.usernotifications.usernotificationservice</string>
+	</array>
+	<key>com.apple.springboard.opensensitiveurl</key>
+	<true/>
+	<key>com.apple.springboard.openurlswhenlocked</key>
+	<true/>
+	<key>com.apple.springboard.setbadgestring</key>
+	<true/>
+	<key>com.apple.uikitservices.app.value-access</key>
+	<true/>
+</dict>
+</plist>

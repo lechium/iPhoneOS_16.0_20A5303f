@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.nanonewscd</string>
+	<key>com.apple.developer.icloud-container-environment</key>
+	<string>Production</string>
+	<key>com.apple.developer.icloud-container-identifiers</key>
+	<array>
+		<string>com.apple.news.public</string>
+		<string>com.apple.news.public.staging</string>
+		<string>com.apple.news.public.qa</string>
+		<string>com.apple.news.public.sandbox</string>
+		<string>com.apple.news.public.demo1</string>
+		<string>com.apple.news.public.demo2</string>
+	</array>
+	<key>com.apple.developer.icloud-services</key>
+	<array>
+		<string>CloudKit</string>
+	</array>
+	<key>com.apple.itunesstored.private</key>
+	<true/>
+	<key>com.apple.nano.nanoregistry.generalaccess</key>
+	<true/>
+	<key>com.apple.notificationcenter.widgetcontrollerrequestrefresh</key>
+	<true/>
+	<key>com.apple.private.cloudkit.spi</key>
+	<array>
+		<string>true</string>
+	</array>
+	<key>com.apple.private.ids.messaging</key>
+	<array>
+		<string>com.apple.private.alloy.news</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.parsecd</string>
+		<string>com.apple.newsd.today</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.news.widget.defaults</string>
+		<string>com.apple.newscore</string>
+		<string>com.apple.nanonews.sync</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.ids.idsremoteurlconnectionagent</string>
+	<key>com.apple.CommCenter.fine-grained</key>
+	<array>
+		<string>spi</string>
+	</array>
+	<key>com.apple.CommCenter.fine-grained - 2</key>
+	<array>
+		<string>spi</string>
+	</array>
+	<key>com.apple.SystemConfiguration.SCPreferences-write-access</key>
+	<string>YES</string>
+	<key>com.apple.mobile.deleted.AllowFreeSpace</key>
+	<true/>
+	<key>com.apple.private.ids.messaging</key>
+	<array>
+		<string>com.apple.private.alloy.idsremoteurlconnection</string>
+	</array>
+	<key>com.apple.private.ids.messaging.high-priority</key>
+	<array>
+		<string>com.apple.private.alloy.idsremoteurlconnection</string>
+	</array>
+	<key>com.apple.private.imcore.imremoteurlconnection</key>
+	<true/>
+	<key>com.apple.private.network.socket-delegate</key>
+	<true/>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.wifi.manager-access</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>IDSRemoteURLConnectionAgent</string>
+	</array>
+</dict>
+</plist>

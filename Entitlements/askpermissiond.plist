@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.askpermissiond</string>
+	<key>aps-connection-initiate</key>
+	<true/>
+	<key>com.apple.accounts.appleaccount.fullaccess</key>
+	<true/>
+	<key>com.apple.application-identifier</key>
+	<string>com.apple.askpermissiond</string>
+	<key>com.apple.authkit.client.private</key>
+	<true/>
+	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.private.accounts.allaccounts</key>
+	<true/>
+	<key>com.apple.private.applemediaservices</key>
+	<true/>
+	<key>com.apple.private.biome.read-write</key>
+	<array>
+		<string>AskToBuy</string>
+	</array>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceFaceID</string>
+	</array>
+	<key>com.apple.private.usernotifications.bundle-identifiers</key>
+	<array>
+		<string>com.apple.askpermission.notifications</string>
+	</array>
+	<key>com.apple.security.exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/private/var/tmp/</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.usernotifications.usernotificationservice</string>
+		<string>com.apple.AskPermissionUI</string>
+		<string>com.apple.biome.PublicStreamAccessService</string>
+		<string>com.apple.biome.compute.source</string>
+	</array>
+	<key>com.apple.springboard.CFUserNotification</key>
+	<true/>
+	<key>com.apple.springboard.remote-alert</key>
+	<true/>
+</dict>
+</plist>

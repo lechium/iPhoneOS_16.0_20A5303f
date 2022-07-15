@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.ctkd</string>
+	<key>com.apple.application-identifier</key>
+	<string>com.apple.ctkd</string>
+	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.keystore.access-keychain-keys</key>
+	<true/>
+	<key>com.apple.keystore.sik.access</key>
+	<true/>
+	<key>com.apple.private.applecredentialmanager.allow</key>
+	<true/>
+	<key>com.apple.private.audit.user</key>
+	<true/>
+	<key>com.apple.private.extension-host.ctk-tokens</key>
+	<true/>
+	<key>com.apple.private.keychain.allow-update-tokens</key>
+	<true/>
+	<key>com.apple.security.exception.iokit-user-client-class</key>
+	<array>
+		<string>AppleKeyStoreUserClient</string>
+		<string>AppleCredentialManagerUserClient</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.CoreAuthentication.agent</string>
+	</array>
+	<key>com.apple.security.smartcard</key>
+	<true/>
+	<key>com.apple.springboard.remote-alert</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.token</string>
+	</array>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>ctkd</string>
+	</array>
+</dict>
+</plist>

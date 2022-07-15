@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.accounts.appleaccount.fullaccess</key>
+	<true/>
+	<key>com.apple.private.MobileContainerManager.lookup</key>
+	<dict>
+		<key>daemon</key>
+		<array>
+			<string>com.apple.bird</string>
+		</array>
+	</dict>
+	<key>com.apple.private.security.storage.mobilesync</key>
+	<true/>
+	<key>com.apple.private.system-extension.app-manager</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceSystemPolicyAllFiles</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.SBUserNotification</string>
+		<string>com.apple.FileProvider</string>
+		<string>com.apple.accountsd.accountmanager</string>
+		<string>com.apple.ProgressReporting</string>
+		<string>com.apple.FileCoordination</string>
+		<string>com.apple.bird</string>
+		<string>com.apple.bird.token</string>
+		<string>com.apple.mobile.keybagd.xpc</string>
+		<string>com.apple.mobile.keybagd.UserManager.xpc</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.desktopservices</string>
+		<string>com.apple.desktopservices.desktopserviceshelper</string>
+	</array>
+	<key>com.apple.security.ts.tmpdir</key>
+	<string>com.apple.desktopservices.desktopserviceshelper</string>
+	<key>com.apple.usermanagerd.persona.fetch</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>temporary-sandbox</string>
+	</array>
+</dict>
+</plist>

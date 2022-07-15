@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.backgroundassets.user</string>
+	<key>com.apple.QuartzCore.secure-mode</key>
+	<true/>
+	<key>com.apple.application-identifier</key>
+	<string>com.apple.backgroundassets.user</string>
+	<key>com.apple.developer.icloud-services</key>
+	<array>
+		<string>CloudKit</string>
+	</array>
+	<key>com.apple.private.MobileContainerManager.otherIdLookup</key>
+	<true/>
+	<key>com.apple.private.cloudkit.masquerade</key>
+	<true/>
+	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.runningboard.launch_extensions</key>
+	<true/>
+	<key>com.apple.springboard.CFUserNotification</key>
+	<true/>
+</dict>
+</plist>

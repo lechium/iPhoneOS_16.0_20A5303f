@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.linkd</string>
+	<key>com.apple.corespeech.uaap.xpc</key>
+	<true/>
+	<key>com.apple.extensionkit.host.extension-point-identifiers</key>
+	<array>
+		<string>com.apple.link-extension</string>
+	</array>
+	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.private.sandbox.profile:embedded</key>
+	<string>temporary-sandbox</string>
+	<key>com.apple.runningboard.launchprocess</key>
+	<true/>
+	<key>com.apple.runningboard.process-state</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.siriknowledged.koa.donate</string>
+		<string>com.apple.extensionkitservice</string>
+		<string>com.apple.corespeech.corespeechd.uaapservice</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.assistant.backedup</string>
+	</array>
+	<key>com.apple.security.system-container</key>
+	<true/>
+	<key>com.apple.security.ts.mobile-keybag-access</key>
+	<true/>
+	<key>com.apple.security.ts.read-any-bundle</key>
+	<true/>
+	<key>com.apple.siri.koa.donate.internal</key>
+	<true/>
+	<key>com.apple.trial.client</key>
+	<array>
+		<string>756</string>
+	</array>
+	<key>platform-application</key>
+	<true/>
+</dict>
+</plist>

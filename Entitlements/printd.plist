@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>FAKETEAMID.com.apple.printd</string>
+	<key>com.apple.notificationcenter.widgetcontrollerhascontent</key>
+	<true/>
+	<key>com.apple.private.necp.match</key>
+	<true/>
+	<key>com.apple.private.security.storage.Photos</key>
+	<true/>
+	<key>com.apple.private.system-keychain</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServicePhotos</string>
+	</array>
+	<key>com.apple.springboard.switcherServiceRegistrar</key>
+	<true/>
+	<key>com.apple.wifi.manager-access</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>PrintKitAccessGroup</string>
+	</array>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>printd</string>
+	</array>
+</dict>
+</plist>

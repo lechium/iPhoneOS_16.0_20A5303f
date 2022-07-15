@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.coordinated</string>
+	<key>com.apple.CompanionLink</key>
+	<true/>
+	<key>com.apple.MediaGroups.client</key>
+	<true/>
+	<key>com.apple.application-identifier</key>
+	<string>com.apple.coordinated</string>
+	<key>com.apple.developer.homekit</key>
+	<true/>
+	<key>com.apple.private.homehubd</key>
+	<array>
+		<string>endpoint-read</string>
+	</array>
+	<key>com.apple.private.homekit</key>
+	<true/>
+	<key>com.apple.private.mobiletimerd</key>
+	<true/>
+	<key>com.apple.private.sandbox.profile:embedded</key>
+	<string>temporary-sandbox</string>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceWillow</string>
+	</array>
+	<key>com.apple.security.exception.files.home-relative-path.read-write</key>
+	<array>
+		<string>Library/Application Support/com.apple.mediagroups</string>
+		<string>Library/Caches/com.apple.coordinated/</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.CompanionLink</string>
+		<string>com.apple.MobileTimer.alarmserver</string>
+		<string>com.apple.MobileTimer.timerserver</string>
+		<string>com.apple.SystemConfiguration.configd</string>
+		<string>com.apple.homed.xpc</string>
+		<string>com.apple.homehubd.manage</string>
+		<string>com.apple.PowerManagement.control</string>
+		<string>com.apple.locationd.registration</string>
+		<string>com.apple.MediaGroups.daemon</string>
+	</array>
+	<key>com.apple.security.exception.mach-register.global-name</key>
+	<array>
+		<string>com.apple.coordination.alarms</string>
+		<string>com.apple.coordination.timers</string>
+		<string>com.apple.coordination.state</string>
+		<string>com.apple.coordination.capability</string>
+		<string>com.apple.coordination.role</string>
+		<string>com.apple.coordination.messaging</string>
+		<string>com.apple.MediaGroups.daemon</string>
+	</array>
+	<key>com.apple.security.exception.process-info</key>
+	<true/>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.soundboard</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.coordinated</string>
+	</array>
+	<key>com.apple.security.ts.tmpdir</key>
+	<string>com.apple.coordinated</string>
+	<key>platform-application</key>
+	<true/>
+</dict>
+</plist>

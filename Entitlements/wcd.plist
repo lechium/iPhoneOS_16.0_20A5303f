@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.wcd</string>
+	<key>aps-connection-initiate</key>
+	<true/>
+	<key>com.apple.CommCenter.fine-grained</key>
+	<array>
+		<string>data-allowed</string>
+		<string>data-allowed-write</string>
+	</array>
+	<key>com.apple.appconduitd.allowedSPI</key>
+	<array>
+		<string>CompanionAppIsInstalled</string>
+	</array>
+	<key>com.apple.companionappd.connect.allow</key>
+	<true/>
+	<key>com.apple.duet.activityscheduler.allow</key>
+	<true/>
+	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.gizmoappd.appmanager.allow</key>
+	<true/>
+	<key>com.apple.locationd.authorizeapplications</key>
+	<true/>
+	<key>com.apple.locationd.usage_oracle</key>
+	<true/>
+	<key>com.apple.multitasking.systemappassertions</key>
+	<true/>
+	<key>com.apple.multitasking.termination</key>
+	<true/>
+	<key>com.apple.nano.nanoregistry.generalaccess</key>
+	<true/>
+	<key>com.apple.private.ids.messaging</key>
+	<array>
+		<string>com.apple.private.alloy.watchconnectivity</string>
+		<string>com.apple.private.alloy.watchconnectivity.classd</string>
+	</array>
+	<key>com.apple.private.ids.messaging.urgent-priority</key>
+	<array>
+		<string>com.apple.private.alloy.watchconnectivity</string>
+		<string>com.apple.private.alloy.watchconnectivity.classd</string>
+	</array>
+	<key>com.apple.private.ids.nearby</key>
+	<true/>
+	<key>com.apple.private.ids.sub-services</key>
+	<array>
+		<string>com.apple.private.alloy.watchconnectivity</string>
+	</array>
+	<key>com.apple.runningboard.assertions.watchconnectivity</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.appconduitd.application-manager</string>
+	</array>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>wcd</string>
+	</array>
+</dict>
+</plist>

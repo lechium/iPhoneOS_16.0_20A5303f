@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.relevanceengine.relevanced</string>
+	<key>com.apple.Carousel.statusOverlay</key>
+	<true/>
+	<key>com.apple.CoreRoutine.LocationOfInterest</key>
+	<true/>
+	<key>com.apple.CoreRoutine.Prediction</key>
+	<true/>
+	<key>com.apple.CoreRoutine.VehicleLocation</key>
+	<true/>
+	<key>com.apple.carousel.backlightaccess</key>
+	<true/>
+	<key>com.apple.coreduetd.allow</key>
+	<true/>
+	<key>com.apple.coreduetd.context</key>
+	<true/>
+	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.intents.extension.discovery</key>
+	<true/>
+	<key>com.apple.locationd.effective_bundle</key>
+	<true/>
+	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.private.corespotlight.internal</key>
+	<true/>
+	<key>com.apple.private.corespotlight.receiver</key>
+	<true/>
+	<key>com.apple.private.corespotlight.search.internal</key>
+	<true/>
+	<key>com.apple.security.system-group-containers</key>
+	<array>
+		<string>systemgroup.com.apple.osanalytics</string>
+	</array>
+</dict>
+</plist>

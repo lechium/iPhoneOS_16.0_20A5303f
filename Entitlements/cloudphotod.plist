@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>AAPLPHOTOS.com.apple.cloudphotod</string>
+	<key>aps-connection-initiate</key>
+	<true/>
+	<key>aps-environment</key>
+	<string>serverPreferred</string>
+	<key>com.apple.coreduetd.allow</key>
+	<true/>
+	<key>com.apple.coreduetd.context</key>
+	<true/>
+	<key>com.apple.developer.icloud-container-environment</key>
+	<string>Production</string>
+	<key>com.apple.developer.icloud-services</key>
+	<array>
+		<string>CloudKit</string>
+	</array>
+	<key>com.apple.mobile.keybagd.UserManager.sync</key>
+	<true/>
+	<key>com.apple.private.aps-connection-initiate</key>
+	<true/>
+	<key>com.apple.private.cloudkit.displaysSystemAcceptPrompt</key>
+	<true/>
+	<key>com.apple.private.cloudkit.masquerade</key>
+	<true/>
+	<key>com.apple.private.cloudkit.nonLegacySharingURL</key>
+	<true/>
+	<key>com.apple.private.cloudkit.onDeviceStreaming</key>
+	<true/>
+	<key>com.apple.private.cloudkit.setEnvironment</key>
+	<true/>
+	<key>com.apple.private.cloudkit.spi</key>
+	<true/>
+	<key>com.apple.private.cloudkit.systemService</key>
+	<true/>
+	<key>com.apple.private.cloudphotod.cloudkit</key>
+	<true/>
+	<key>com.apple.private.cloudphotod.generic</key>
+	<true/>
+	<key>com.apple.private.security.storage.Photos</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServicePhotos</string>
+		<string>kTCCServiceLiverpool</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.ind.cloudfeatures</string>
+	</array>
+	<key>com.apple.springboard.CFUserNotification</key>
+	<true/>
+	<key>com.apple.telephony.cupolicy-monitor-access</key>
+	<true/>
+</dict>
+</plist>

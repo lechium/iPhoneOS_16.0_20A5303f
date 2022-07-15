@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.pasteboard.pasted</string>
+	<key>com.apple.DragUI.druid.announce-paste</key>
+	<true/>
+	<key>com.apple.assertiond.app-state-monitor</key>
+	<true/>
+	<key>com.apple.backboardd.eventAuthenticationKey</key>
+	<true/>
+	<key>com.apple.backboardd.setAuthenticatedKeyCommands</key>
+	<true/>
+	<key>com.apple.backboardd.setAuthenticatedTouches</key>
+	<true/>
+	<key>com.apple.fileprovider.enumerate</key>
+	<true/>
+	<key>com.apple.fileprovider.fetch-url</key>
+	<true/>
+	<key>com.apple.private.coreservices.useractivityd.sharedpasteboard</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.frontboard.systemappservices</string>
+		<string>com.apple.SBUserNotification</string>
+	</array>
+	<key>com.apple.springboard.productivity-gesture-authentication</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>PasteBoard</string>
+	</array>
+</dict>
+</plist>

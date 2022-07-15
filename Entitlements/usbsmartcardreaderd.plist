@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.private.ctk.slot-type</key>
+	<string>smartcard</string>
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<key>com.apple.security.device.usb</key>
+	<true/>
+	<key>com.apple.security.iokit-user-client-class</key>
+	<array>
+		<string>AppleUSBHostFrameworkInterfaceClient</string>
+	</array>
+	<key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+	<string>com.apple.ctkd.slot-registry</string>
+	<key>com.apple.security.temporary-exception.sbpl</key>
+	<array>
+		<string>(allow iokit-open (iokit-user-client-class "AppleUSBHostFrameworkInterfaceClient"))</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.companionappd.connect.allow</key>
+	<true/>
+	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.nano.nanoregistry.generalaccess</key>
+	<true/>
+	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.private.ids.messaging</key>
+	<array>
+		<string>com.apple.private.alloy.tccd.sync</string>
+		<string>com.apple.private.alloy.tccd.msg</string>
+	</array>
+	<key>com.apple.private.ids.messaging.high-priority</key>
+	<array>
+		<string>com.apple.private.alloy.tccd.sync</string>
+		<string>com.apple.private.alloy.tccd.msg</string>
+	</array>
+	<key>com.apple.private.kernel.global-proc-info</key>
+	<true/>
+	<key>com.apple.private.security.storage.TCC</key>
+	<true/>
+	<key>com.apple.private.usernotifications.bundle-identifiers</key>
+	<array>
+		<string>com.apple.tccd</string>
+	</array>
+	<key>com.apple.private.xpc.domain-extension.proxy</key>
+	<true/>
+	<key>com.apple.springboard.CFUserNotification</key>
+	<true/>
+	<key>com.apple.springboard.remote-alert</key>
+	<true/>
+</dict>
+</plist>

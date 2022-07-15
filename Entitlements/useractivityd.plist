@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.coreservices.useractivityd</string>
+	<key>com.apple.PowerManagement.control</key>
+	<true/>
+	<key>com.apple.backboardd.lastUserEventTime</key>
+	<true/>
+	<key>com.apple.bluetooth.system</key>
+	<true/>
+	<key>com.apple.developer.icloud-services</key>
+	<array>
+		<string>CloudDocuments</string>
+		<string>CloudKit</string>
+	</array>
+	<key>com.apple.frontboardservices.display-layout-monitor</key>
+	<true/>
+	<key>com.apple.iokit.powerdxpc</key>
+	<true/>
+	<key>com.apple.private.associated-domains</key>
+	<true/>
+	<key>com.apple.private.librarian.container-proxy</key>
+	<true/>
+	<key>com.apple.private.tcc.allow</key>
+	<array>
+		<string>kTCCServiceUbiquity</string>
+		<string>kTCCServiceSystemPolicyAllFiles</string>
+	</array>
+	<key>com.apple.runningboard.assertions.useractivityd</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.sharing.handoff.advertising</string>
+		<string>com.apple.sharing.handoff.scanning</string>
+		<string>com.apple.CarPlayApp.non-launching-service</string>
+		<string>com.apple.server.bluetooth.general.xpc</string>
+	</array>
+	<key>com.apple.system.powermanagement.useractivity</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.SharedWebCredentials</string>
+	</array>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>lsuseractivityd</string>
+	</array>
+</dict>
+</plist>

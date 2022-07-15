@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.appletv.pbs.allow-launch-kiosk</key>
+	<true/>
+	<key>com.apple.assertiond.app-state-monitor</key>
+	<true/>
+	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.private.agx.performance-spi</key>
+	<true/>
+	<key>com.apple.security.exception.iokit-user-client-class</key>
+	<array>
+		<string>IOReportUserClient</string>
+		<string>AGXDeviceUserClient</string>
+	</array>
+	<key>com.apple.springboard.debugapplications</key>
+	<true/>
+	<key>com.apple.system.diagnostics.iokit-properties</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>gputoolsd</string>
+	</array>
+</dict>
+</plist>

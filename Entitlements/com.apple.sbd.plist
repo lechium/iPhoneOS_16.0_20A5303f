@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.sbd</string>
+	<key>com.apple.accounts.appleaccount.fullaccess</key>
+	<true/>
+	<key>com.apple.accounts.idms.fullaccess</key>
+	<true/>
+	<key>com.apple.authkit.client.internal</key>
+	<true/>
+	<key>com.apple.developer.ubiquity-kvstore-identifier</key>
+	<string>com.apple.sbd3</string>
+	<key>com.apple.escrowservice.access</key>
+	<true/>
+	<key>com.apple.keystore.access-keychain-keys</key>
+	<true/>
+	<key>com.apple.managedconfiguration.profiled-access</key>
+	<true/>
+	<key>com.apple.mkb.usersession.info</key>
+	<true/>
+	<key>com.apple.mkb.usersession.securebackup</key>
+	<true/>
+	<key>com.apple.private.MobileGestalt.AllowedProtectedKeys</key>
+	<array>
+		<string>UniqueDeviceID</string>
+	</array>
+	<key>com.apple.private.escrow-update</key>
+	<true/>
+	<key>com.apple.private.iaaccounts</key>
+	<true/>
+	<key>com.apple.private.keychain-backup-client</key>
+	<true/>
+	<key>com.apple.private.octagon</key>
+	<true/>
+	<key>com.apple.private.octagon.escrow-content</key>
+	<true/>
+	<key>com.apple.private.security.storage.SFAnalytics</key>
+	<true/>
+	<key>com.apple.private.ubiquity-additional-kvstore-identifiers</key>
+	<array>
+		<string>com.apple.sbd.emcs</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.kvsd</string>
+	</array>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.sbd</string>
+		<string>com.apple.lakitu</string>
+	</array>
+	<key>keychain-cloud-circle</key>
+	<true/>
+	<key>platform-application</key>
+	<true/>
+	<key>restore-keychain</key>
+	<true/>
+</dict>
+</plist>

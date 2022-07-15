@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.nano.nanoregistry.generalaccess</key>
+	<true/>
+	<key>com.apple.private.ids.messaging</key>
+	<array>
+		<string>com.apple.private.alloy.messages</string>
+		<string>com.apple.private.alloy.quickboard.classa</string>
+	</array>
+	<key>com.apple.private.lockdown.finegrained-get</key>
+	<array>
+		<string>NULL/ActivationState</string>
+	</array>
+	<key>com.apple.security.exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/private/var/tmp/</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.securityd</string>
+		<string>com.apple.identityservicesd.embedded.auth</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.conference</string>
+		<string>com.apple.pairedsyncd</string>
+	</array>
+	<key>com.apple.security.ts.ubiquity</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>com.apple.TextInput</string>
+	</array>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>temporary-sandbox</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adi-client</key>
+	<string>628765583</string>
+	<key>application-identifier</key>
+	<string>com.apple.newsd</string>
+	<key>com.apple.itunesstored.private</key>
+	<true/>
+	<key>com.apple.pegasus.context</key>
+	<true/>
+	<key>com.apple.private.MobileGestalt.AllowedProtectedKeys</key>
+	<array>
+		<string>UniqueDeviceID</string>
+	</array>
+	<key>com.apple.private.applemediaservices</key>
+	<true/>
+	<key>com.apple.private.network.socket-delegate</key>
+	<true/>
+	<key>com.apple.private.nsurlsession.impersonate</key>
+	<true/>
+	<key>com.apple.proactive.eventtracker</key>
+	<true/>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.apple.newsd</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.ak.anisette.xpc</string>
+		<string>com.apple.ak.auth.xpc</string>
+		<string>com.apple.parsecd</string>
+		<string>com.apple.xpc.amsaccountsd</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.newscore2</string>
+	</array>
+	<key>fairplay-client</key>
+	<string>1397409257</string>
+</dict>
+</plist>

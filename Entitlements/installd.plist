@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.multitasking.termination</key>
+	<true/>
+	<key>com.apple.private.MobileContainerManager.allowed</key>
+	<true/>
+	<key>com.apple.private.MobileGestalt.AllowedProtectedKeys</key>
+	<array>
+		<string>UniqueDeviceID</string>
+		<string>ProvisioningUniqueDeviceID</string>
+	</array>
+	<key>com.apple.private.MobileInstallationHelperService.InstallDaemonOpsEnabled</key>
+	<true/>
+	<key>com.apple.private.MobileInstallationHelperService.allowed</key>
+	<true/>
+	<key>com.apple.private.amfi.can-check-trust-cache</key>
+	<true/>
+	<key>com.apple.private.coreservices.can-perform-rebuild-registration</key>
+	<true/>
+	<key>com.apple.private.coreservices.can-register-install-results</key>
+	<true/>
+	<key>com.apple.private.kernel.override-cpumon</key>
+	<true/>
+	<key>com.apple.private.keychain.appclipdeletion</key>
+	<true/>
+	<key>com.apple.private.mis.online_auth_agent</key>
+	<true/>
+	<key>com.apple.private.security.storage.AppBundles</key>
+	<true/>
+	<key>com.apple.private.uninstall.deletion</key>
+	<true/>
+	<key>com.apple.usermanagerd.persona.fetch</key>
+	<true/>
+	<key>fairplay-client</key>
+	<integer>2033844765</integer>
+	<key>keychain-cloud-circle</key>
+	<true/>
+	<key>seatbelt-profiles</key>
+	<array>
+		<string>installd</string>
+	</array>
+</dict>
+</plist>
